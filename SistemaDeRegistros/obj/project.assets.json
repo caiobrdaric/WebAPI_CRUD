@@ -433,11 +433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Desenv\\WebAPI_CRUD_Project\\SistemaDeRegistros\\SistemaDeRegistros\\SistemaDeRegistros.csproj",
+      "projectUniqueName": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\SistemaDeRegistros.csproj",
       "projectName": "SistemaDeRegistros",
-      "projectPath": "C:\\Desenv\\WebAPI_CRUD_Project\\SistemaDeRegistros\\SistemaDeRegistros\\SistemaDeRegistros.csproj",
+      "projectPath": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\SistemaDeRegistros.csproj",
       "packagesPath": "C:\\Users\\BRDARIC-KING\\.nuget\\packages\\",
-      "outputPath": "C:\\Desenv\\WebAPI_CRUD_Project\\SistemaDeRegistros\\SistemaDeRegistros\\obj\\",
+      "outputPath": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BRDARIC-KING\\AppData\\Roaming\\NuGet\\NuGet.Config",
