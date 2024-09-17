@@ -8,7 +8,7 @@ namespace SistemaDeRegistros.Controllers
     public class UsuarioController : ControllerBase
     {
         [HttpGet]
-        public ActionResult<List<Models.ClientModel>> BuscarTodosClientes()
+        public ActionResult<List<Models.UserModel>> BuscarTodosClientes()
         {
             return Ok();
         }

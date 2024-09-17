@@ -1,4 +1,9 @@
 
+using Microsoft.EntityFrameworkCore;
+using SistemaDeRegistros.Data;
+using SistemaDeRegistros.Repositorios;
+using SistemaDeRegistros.Repositorios.Interfaces;
+
 namespace SistemaDeRegistros
 {
     public class Program
@@ -13,6 +18,13 @@ namespace SistemaDeRegistros
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddEntityFrameworkSqlServer()
+                .AddDbContext<SistemaTarefasDBContext>(
+                    options => options.UseSqlServer(builder.Configuration.GetConnectionString("DataBase"))
+                );
+
+            builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 
             var app = builder.Build();
 

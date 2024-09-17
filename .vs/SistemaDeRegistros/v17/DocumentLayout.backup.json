@@ -1,88 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Desenv\\WebAPI_CRUD\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|c:\\desenv\\webapi_crud\\sistemaderegistros\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|solutionrelative:sistemaderegistros\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|c:\\desenv\\webapi_crud\\sistemaderegistros\\models\\tarefamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|solutionrelative:sistemaderegistros\\models\\tarefamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|c:\\desenv\\webapi_crud\\sistemaderegistros\\models\\clientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|solutionrelative:sistemaderegistros\\models\\clientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|c:\\desenv\\webapi_crud\\sistemaderegistros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|solutionrelative:sistemaderegistros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "SistemaDeRegistros\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "SistemaDeRegistros\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T19:31:15.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TarefaModel.cs",
-              "DocumentMoniker": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Models\\TarefaModel.cs",
-              "RelativeDocumentMoniker": "SistemaDeRegistros\\Models\\TarefaModel.cs",
-              "ToolTip": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Models\\TarefaModel.cs",
-              "RelativeToolTip": "SistemaDeRegistros\\Models\\TarefaModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T18:53:29.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClientModel.cs",
-              "DocumentMoniker": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Models\\ClientModel.cs",
-              "RelativeDocumentMoniker": "SistemaDeRegistros\\Models\\ClientModel.cs",
-              "ToolTip": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Models\\ClientModel.cs",
-              "RelativeToolTip": "SistemaDeRegistros\\Models\\ClientModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T18:53:27.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Program.cs",
-              "RelativeDocumentMoniker": "SistemaDeRegistros\\Program.cs",
-              "ToolTip": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Program.cs",
-              "RelativeToolTip": "SistemaDeRegistros\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T18:53:32.065Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
