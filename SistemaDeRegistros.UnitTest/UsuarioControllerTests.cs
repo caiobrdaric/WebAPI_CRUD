@@ -3,7 +3,7 @@ using Moq;
 using SistemaDeRegistros.Controllers;
 using SistemaDeRegistros.Repositorios.Interfaces;
 
-namespace SeuProjeto.Tests
+namespace SistemaDeRegistros.UnitTest
 {
     public class UsuarioControllerTests
     {
