@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using SistemaDeRegistros.Controllers;
+using SistemaDeRegistros.Models;
 using SistemaDeRegistros.Repositorios.Interfaces;
+using System.ComponentModel.DataAnnotations;
 
 namespace SistemaDeRegistros.UnitTest
 {
@@ -202,7 +204,86 @@ namespace SistemaDeRegistros.UnitTest
             var okResult = Assert.IsType<OkResult>(resultado.Result);
             Assert.Equal(200, okResult.StatusCode);
         }
+        [Fact]
+        public void ValidarCPF_DeveRetornarFalseParaCPFInvalido()
+        {
+            // Arrange
+            var usuario = new UserModel
+            {
+                CPF = "12345678900" // CPF inválido
+            };
 
- 
+            // Act
+            var resultado = usuario.ValidarCPF();
+
+            // Assert
+            Assert.False(resultado);
+        }
+
+        [Fact]
+        public void ValidarCPF_DeveRetornarTrueParaCPFValido()
+        {
+            // Arrange
+            var usuario = new UserModel
+            {
+                CPF = "12345678909" // CPF válido
+            };
+
+            // Act
+            var resultado = usuario.ValidarCPF();
+
+            // Assert
+            Assert.True(resultado);
+        }
+
+        [Theory]
+        [InlineData(null, "Nome Teste", "teste@example.com")]
+        [InlineData("12345678909", null, "teste@example.com")]
+        [InlineData("12345678909", "Nome Teste", null)]
+        public void ValidadorDeCamposObrigatorios_DeveRetornarErrosParaCamposObrigatorios(string cpf, string nome, string email)
+        {
+            // Arrange
+            var usuario = new UserModel
+            {
+                CPF = cpf,
+                Nome = nome,
+                Email = email,
+                Id = Guid.NewGuid()
+            };
+
+            var validationResults = new List<ValidationResult>();
+            var validationContext = new ValidationContext(usuario);
+
+            // Act
+            var isValid = Validator.TryValidateObject(usuario, validationContext, validationResults, true);
+
+            // Assert
+            Assert.False(isValid);
+            Assert.NotEmpty(validationResults);
+        }
+
+        [Fact]
+        public void ValidadorDeCamposObrigatorios_DeveRetornarValidoParaCamposPreenchidos()
+        {
+            // Arrange
+            var usuario = new UserModel
+            {
+                CPF = "12345678909", // CPF válido
+                Nome = "Nome Teste",
+                Email = "teste@example.com",
+                Id = Guid.NewGuid()
+            };
+
+            var validationResults = new List<ValidationResult>();
+            var validationContext = new ValidationContext(usuario);
+
+            // Act
+            var isValid = Validator.TryValidateObject(usuario, validationContext, validationResults, true);
+
+            // Assert
+            Assert.True(isValid);
+            Assert.Empty(validationResults);
+        }
+
     }
 }
