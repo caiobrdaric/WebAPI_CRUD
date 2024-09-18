@@ -1,7 +1,6 @@
-readme
 # Sistema de Registros
 
-O **Sistema de Registros** é uma aplicação ASP.NET Core que utiliza Entity Framework Core para gerenciar operações de CRUD (Criar, Ler, Atualizar, Excluir) para entidades de usuário e tarefa. Este projeto foi configurado para usar um banco de dados em memória, facilitando o desenvolvimento e testes sem a necessidade de um banco de dados físico.
+O **Sistema de Registros** é uma aplicação ASP.NET Core que utiliza Entity Framework Core para gerenciar operações de CRUD (Criar, Ler, Atualizar, Excluir) para entidades de usuário. Este projeto foi configurado para usar um banco de dados em memória, facilitando o desenvolvimento e testes sem a necessidade de um banco de dados físico.
 
 ## Estrutura do Projeto
 
@@ -17,15 +16,13 @@ Esta pasta contém os controladores da API, que são responsáveis por processar
 
 A pasta Data contém o contexto do banco de dados e as configurações de mapeamento dos modelos. 
 
-- **SistemaTarefasDBContext**: Define o contexto do banco de dados que gerencia as entidades `UserModel` e `TarefaModel`. Configura a utilização do banco de dados em memória e aplica as configurações de mapeamento das entidades.
+- **SistemaTarefasDBContext**: Define o contexto do banco de dados que gerencia as entidades `UserModel`. Configura a utilização do banco de dados em memória e aplica as configurações de mapeamento das entidades.
 
 ### 3. Models
 
 Esta pasta contém as classes que representam os dados utilizados na aplicação.
 
 - **UserModel**: Representa um usuário no sistema, com propriedades como CPF, nome e e-mail.
-
-- **TarefaModel**: Representa uma tarefa no sistema, incluindo propriedades para ID, nome, descrição e status. O status é gerenciado por uma enumeração que define os possíveis estados da tarefa.
 
 ### 4. Repositories
 
@@ -35,11 +32,13 @@ Esta pasta contém a lógica de acesso a dados, responsável por interagir com o
 
 - **UsuarioRepositorio**: Implementa a interface `IUsuarioRepositorio`. Contém a lógica para buscar, adicionar, atualizar e excluir usuários no banco de dados. Utiliza o contexto do banco de dados para realizar essas operações.
 
-### 5. Enums
+### 5. Tecnologias utilizadas
 
-A pasta Enums contém enumerações usadas no projeto.
-
-- **StatusTarefa**: Enumeração que define os possíveis status de uma tarefa, como "A Fazer", "Em Andamento" e "Concluído".
+- .NET 8.0
+- C#
+- Entity Famework inMemory
+- xUnit
+- Coverlet.msbuild
 
 ## Funcionamento
 
@@ -51,14 +50,5 @@ A pasta Enums contém enumerações usadas no projeto.
 
 - **Mapeamento e Modelos**: As classes de modelo representam os dados que a aplicação manipula, e as classes de mapeamento definem como essas classes são armazenadas no banco de dados.
 
-## Contribuição
-
-Contribuições para o projeto são bem-vindas. Para contribuir, faça um fork do repositório, crie uma branch para suas alterações e envie um pull request com suas contribuições.
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
-## Contato
-
-Para dúvidas ou suporte, entre em contato pelo e-mail: [seuemail@exemplo.com](mailto:seuemail@exemplo.com).
+# Relatório percentual de testes.
+![Captura de tela 2024-09-18 023307](https://github.com/user-attachments/assets/29569c20-8b03-4772-897d-db7e55c40cb1)
