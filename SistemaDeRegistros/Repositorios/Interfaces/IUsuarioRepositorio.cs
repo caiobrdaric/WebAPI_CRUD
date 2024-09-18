@@ -5,12 +5,12 @@
 
         Task<List<Models.UserModel>> BuscarTodosUsuarios();
         
-        Task<Models.UserModel> BuscarPorCPF(int id);
+        Task<Models.UserModel> BuscarPorId(Guid id);
         
         Task<Models.UserModel> Adicionar(Models.UserModel usuario);
         
-        Task<Models.UserModel> Atualizar(Models.UserModel usuario, int id);
+        Task<Models.UserModel> Atualizar(Models.UserModel usuario, Guid id);
         
-        Task<bool> Apagar(int id);
+        Task<bool> Deletar(Guid id);
     }   
 }

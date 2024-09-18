@@ -1,4 +1,3 @@
-
 using Microsoft.EntityFrameworkCore;
 using SistemaDeRegistros.Data;
 using SistemaDeRegistros.Repositorios;
@@ -13,16 +12,13 @@ namespace SistemaDeRegistros
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            builder.Services.AddEntityFrameworkSqlServer()
-                .AddDbContext<SistemaTarefasDBContext>(
-                    options => options.UseSqlServer(builder.Configuration.GetConnectionString("DataBase"))
-                );
+            // Use InMemory database instead of SQL Server
+            builder.Services.AddDbContext<SistemaTarefasDBContext>(options =>
+                options.UseInMemoryDatabase("SistemaDeRegistrosInMemory"));
 
             builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 
@@ -36,12 +32,8 @@ namespace SistemaDeRegistros
             }
 
             app.UseHttpsRedirection();
-
             app.UseAuthorization();
-
-
             app.MapControllers();
-
             app.Run();
         }
     }
