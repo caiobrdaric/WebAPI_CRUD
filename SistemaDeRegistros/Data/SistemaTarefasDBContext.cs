@@ -11,12 +11,10 @@ namespace SistemaDeRegistros.Data
         }
 
         public DbSet<Models.UserModel> Usuarios { get; set; }
-        public DbSet<Models.TarefaModel> Tarefas { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new UsuarioMap());
-            modelBuilder.ApplyConfiguration(new TarefaMap());
             //Nota
             base.OnModelCreating(modelBuilder);
         }

@@ -83,11 +83,6 @@
         "Name": "usuario",
         "Type": "SistemaDeRegistros.Models.UserModel",
         "IsRequired": true
-      },
-      {
-        "Name": "Id",
-        "Type": "System.Guid",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -104,7 +99,7 @@
   },
   {
     "ContainingType": "SistemaDeRegistros.Controllers.UsuarioController",
-    "Method": "BuscarPorCPF",
+    "Method": "BuscarPorId",
     "RelativePath": "api/Usuario/{id}",
     "HttpMethod": "GET",
     "IsController": true,

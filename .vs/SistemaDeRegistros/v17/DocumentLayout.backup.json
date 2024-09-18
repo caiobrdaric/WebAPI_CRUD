@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Desenv\\WebAPI_CRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|c:\\desenv\\webapi_crud\\sistemaderegistros\\repositorios\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|solutionrelative:sistemaderegistros\\repositorios\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|c:\\desenv\\webapi_crud\\sistemaderegistros\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|solutionrelative:sistemaderegistros\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6F39362-E666-4AF5-80AD-DAB7500BB246}|SistemaDeRegistros.UnitTest\\SistemaDeRegistros.UnitTest.csproj|c:\\desenv\\webapi_crud\\sistemaderegistros.unittest\\usuariocontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6F39362-E666-4AF5-80AD-DAB7500BB246}|SistemaDeRegistros.UnitTest\\SistemaDeRegistros.UnitTest.csproj|solutionrelative:sistemaderegistros.unittest\\usuariocontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|c:\\desenv\\webapi_crud\\sistemaderegistros\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|solutionrelative:sistemaderegistros\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|c:\\desenv\\webapi_crud\\sistemaderegistros\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|solutionrelative:sistemaderegistros\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|c:\\desenv\\webapi_crud\\sistemaderegistros\\repositorios\\interfaces\\iusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|solutionrelative:sistemaderegistros\\repositorios\\interfaces\\iusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|c:\\desenv\\webapi_crud\\sistemaderegistros\\data\\sistematarefasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|solutionrelative:sistemaderegistros\\data\\sistematarefasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{91B5B615-88F7-45E4-AE68-C0ABB0E06AC1}|SistemaDeRegistros\\SistemaDeRegistros.csproj|c:\\desenv\\webapi_crud\\sistemaderegistros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +26,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "UsuarioControllerTests.cs",
+              "DocumentMoniker": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros.UnitTest\\UsuarioControllerTests.cs",
+              "RelativeDocumentMoniker": "SistemaDeRegistros.UnitTest\\UsuarioControllerTests.cs",
+              "ToolTip": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros.UnitTest\\UsuarioControllerTests.cs*",
+              "RelativeToolTip": "SistemaDeRegistros.UnitTest\\UsuarioControllerTests.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCEAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T04:19:53.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "SistemaDeRegistros\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "SistemaDeRegistros\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T19:32:50.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SistemaTarefasDBContext.cs",
+              "DocumentMoniker": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Data\\SistemaTarefasDBContext.cs",
+              "RelativeDocumentMoniker": "SistemaDeRegistros\\Data\\SistemaTarefasDBContext.cs",
+              "ToolTip": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Data\\SistemaTarefasDBContext.cs",
+              "RelativeToolTip": "SistemaDeRegistros\\Data\\SistemaTarefasDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T04:27:05.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Program.cs",
               "RelativeDocumentMoniker": "SistemaDeRegistros\\Program.cs",
@@ -47,72 +78,6 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T18:52:31.269Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IUsuarioRepositorio.cs",
-              "DocumentMoniker": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Repositorios\\Interfaces\\IUsuarioRepositorio.cs",
-              "RelativeDocumentMoniker": "SistemaDeRegistros\\Repositorios\\Interfaces\\IUsuarioRepositorio.cs",
-              "ToolTip": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Repositorios\\Interfaces\\IUsuarioRepositorio.cs",
-              "RelativeToolTip": "SistemaDeRegistros\\Repositorios\\Interfaces\\IUsuarioRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T03:30:37.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserModel.cs",
-              "DocumentMoniker": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Models\\UserModel.cs",
-              "RelativeDocumentMoniker": "SistemaDeRegistros\\Models\\UserModel.cs",
-              "ToolTip": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Models\\UserModel.cs",
-              "RelativeToolTip": "SistemaDeRegistros\\Models\\UserModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T03:29:38.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "SistemaDeRegistros\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "SistemaDeRegistros\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T19:32:50.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioRepositorio.cs",
-              "DocumentMoniker": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Repositorios\\UsuarioRepositorio.cs",
-              "RelativeDocumentMoniker": "SistemaDeRegistros\\Repositorios\\UsuarioRepositorio.cs",
-              "ToolTip": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\Repositorios\\UsuarioRepositorio.cs",
-              "RelativeToolTip": "SistemaDeRegistros\\Repositorios\\UsuarioRepositorio.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAwwC8AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T03:31:19.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\appsettings.json",
-              "RelativeDocumentMoniker": "SistemaDeRegistros\\appsettings.json",
-              "ToolTip": "C:\\Desenv\\WebAPI_CRUD\\SistemaDeRegistros\\appsettings.json",
-              "RelativeToolTip": "SistemaDeRegistros\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-17T19:33:52.892Z",
               "EditorCaption": ""
             }
           ]

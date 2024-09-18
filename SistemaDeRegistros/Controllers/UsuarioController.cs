@@ -22,7 +22,7 @@ namespace SistemaDeRegistros.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<List<Models.UserModel>>> BuscarPorCPF(Guid id)
+        public async Task<ActionResult<List<Models.UserModel>>> BuscarPorId(Guid id)
         {
             Models.UserModel usuario = await _usuarioRepositorio.BuscarPorId(id);
             return Ok(usuario);
@@ -49,7 +49,7 @@ namespace SistemaDeRegistros.Controllers
         }
 
         [HttpDelete]
-        public async Task<ActionResult<Models.UserModel>> Deletar([FromBody] Models.UserModel usuario, Guid Id)
+        public async Task<ActionResult<Models.UserModel>> Deletar([FromBody] Models.UserModel usuario)
         {
             bool success = await _usuarioRepositorio.Deletar(usuario.Id);
             return Ok();
