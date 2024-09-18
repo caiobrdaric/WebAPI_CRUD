@@ -35,18 +35,19 @@ namespace SistemaDeRegistros.Repositorios
 
         public async Task<UserModel> Atualizar(UserModel usuario, Guid id)
         {
-            UserModel usuarioPorCPF = await BuscarPorId(id);
-            if(usuarioPorCPF == null)
+            UserModel usuarioPorId = await BuscarPorId(id);
+            if(usuarioPorId == null)
             {
                 throw new Exception($"Usuário para o CPF: {id} não foi localizado");
             }
-            usuarioPorCPF.Nome = usuario.Nome;
-            usuarioPorCPF.Email = usuario.Email;
+            usuarioPorId.Nome = usuario.Nome;
+            usuarioPorId.Email = usuario.Email;
+            usuarioPorId.CPF = usuario.CPF;
             
-            _dbContext.Usuarios.Update(usuarioPorCPF);
+            _dbContext.Usuarios.Update(usuarioPorId);
             await _dbContext.SaveChangesAsync();
 
-            return usuarioPorCPF;
+            return usuarioPorId;
         }
 
         public async Task<bool> Deletar(Guid id)

@@ -31,13 +31,19 @@ namespace SistemaDeRegistros.Controllers
         [HttpPost]
         public async Task<ActionResult<Models.UserModel>> Cadastrar([FromBody] Models.UserModel usuario)
         {
-          var success = await _usuarioRepositorio.Adicionar(usuario);
+            var cpfvalido = usuario.ValidarCPF();
+            if (cpfvalido == false)
+                return BadRequest("O CPF é invalido");
+            var success = await _usuarioRepositorio.Adicionar(usuario);
             return Ok(usuario);
         }
 
         [HttpPut]
         public async Task<ActionResult<Models.UserModel>> Atualizar([FromBody] Models.UserModel usuario)
         {
+            var cpfvalido = usuario.ValidarCPF();
+            if (cpfvalido == false)
+                return BadRequest("O CPF é invalido"); 
             Models.UserModel response = await _usuarioRepositorio.Atualizar(usuario, usuario.Id);
             return Ok(usuario);
         }
