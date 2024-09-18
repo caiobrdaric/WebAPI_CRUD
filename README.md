@@ -16,7 +16,7 @@ Esta pasta contém os controladores da API, que são responsáveis por processar
 
 A pasta Data contém o contexto do banco de dados e as configurações de mapeamento dos modelos. 
 
-- **SistemaTarefasDBContext**: Define o contexto do banco de dados que gerencia as entidades `UserModel`. Configura a utilização do banco de dados em memória e aplica as configurações de mapeamento das entidades.
+- **SistemaTarefasDBContext**: Define o contexto do banco de dados que gerencia a entidade `UserModel`. Configura a utilização do banco de dados em memória e aplica as configurações de mapeamento da entidade.
 
 ### 3. Models
 
